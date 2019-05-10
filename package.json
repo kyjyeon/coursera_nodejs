@@ -1,0 +1,20 @@
+{
+  "name": "coursera_nodejs",
+  "version": "1.0.0",
+  "description": "Coursera Server-side development using nodejs, mongodb, express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyjyeon/coursera_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyjyeon/coursera_nodejs/issues"
+  },
+  "homepage": "https://github.com/kyjyeon/coursera_nodejs#readme"
+}
