@@ -16,5 +16,7 @@
   "bugs": {
     "url": "https://github.com/kyjyeon/coursera_nodejs/issues"
   },
-  "homepage": "https://github.com/kyjyeon/coursera_nodejs#readme"
+  "homepage": "https://github.com/kyjyeon/coursera_nodejs#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
