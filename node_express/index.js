@@ -15,11 +15,8 @@ app.use(bodyParser.json());
 
 //Anything coming from /dishes are handled by dishRouter
 app.use('/dishes', dishRouter);
-app.use('/dishes/:dishID', dishRouter);
 app.use('/promotions', promoRouter);
-app.use('/promotions/:promoID', promoRouter);
 app.use('/leaders', leaderRouter);
-app.use('/leaders/:leaderid', leaderRouter);
 
 app.use(express.static(__dirname+ '/public'))
 
