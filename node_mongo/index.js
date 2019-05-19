@@ -25,8 +25,11 @@ MongoClient.connect(url, (err, client)=>{
 
             db.dropCollection('dishes', (err,result)=>{
                 assert.equal(err, null);
-
-                client.close();
+                console.log(err);
+                console.log(result);
+                client.close(()=>{
+                    console.log('Client Closed');
+                });
             });
         })
     })
