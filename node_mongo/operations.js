@@ -19,5 +19,4 @@ exports.removeDocuments = (db, document , collection, callback)=>{
 exports.updateDocuments = (db, document , update ,collection, callback)=>{
     const coll = db.collection(collection);
     return coll.updateOne(document, {$set: update}, null);
-
 }
