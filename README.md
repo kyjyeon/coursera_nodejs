@@ -1,2 +1,2 @@
 # coursera_nodejs
-Coursera Server-side development using nodejs, mongodb, express
+Coursera Server-side development using <b>nodejs, mongodb, express.js, mongoose</b>

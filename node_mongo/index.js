@@ -26,12 +26,12 @@ MongoClient.connect(url).then((client) => {
         })
         .then((result) => {
             console.log("Updated Document:\n", result.result);
-
+        
             return dboperation.findDocuments(db, "dishes");
         })
         .then((docs) => {
             console.log("Found Updated Documents:\n", docs);
-                            
+        
             return db.dropCollection("dishes");
         })
         .then((result) => {
