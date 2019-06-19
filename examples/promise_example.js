@@ -69,5 +69,3 @@ promise
 .then(console.log);
 
 
-
-출처: https://bcho.tistory.com/1086 [조대협의 블로그]
