@@ -6,7 +6,7 @@ var asyncfunction1 = function(param){
                  function(){
                        console.log('func1');
                        resolved('func 1 success:'+param+'\n');
-                 },500);
+                 },1000);
       });
 }
 var asyncfunction2 = function(param){
@@ -15,7 +15,7 @@ var asyncfunction2 = function(param){
                  function(){
                        console.log('func2');
                        rejected(new Error('func 2 error:'+param+'\n'));
-                 },500);
+                 },1000);
       });
 }
 var asyncfunction3 = function(param){
@@ -24,7 +24,7 @@ var asyncfunction3 = function(param){
                  function(){
                        console.log('func3');
                        resolved('func 3 success:'+param+'\n');
-                 },500);
+                 },1000);
       });
 }
 
@@ -34,7 +34,7 @@ var asyncfunction4 = function(param){
                  function(){
                        console.log('func4');
                        rejected(Error('func 4 error:'+param+'\n'));
-                 },500);
+                 },1000);
       });
 }
 
@@ -44,7 +44,7 @@ var asyncfunction5 = function(param){
                  function(){
                        console.log('func5');
                        resolved('func 5 success:'+param+'\n');
-                 },500);
+                 },1000);
       });
 }
 
