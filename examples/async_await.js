@@ -1,3 +1,4 @@
+//Easier promise function compared to [then]
 async function fetchAuthorName(postId) {
     const postResponse = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`);
     const post = await postResponse.json();
